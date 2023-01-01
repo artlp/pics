@@ -7,9 +7,9 @@ function SearchBar({ onSubmit }) {
     onSubmit(term);
   };
   const handleChange = (event) => {
-    setTerm(event.target.value)
-
+    setTerm(event.target.value);
   };
+
   return (
     <div>
       <form onSubmit={handleFormSubmit}>
